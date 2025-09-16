@@ -1,0 +1,69 @@
+.ca-followCard {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 0.8rem;
+  justify-content: space-between;
+}
+
+.ca-followCard-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ca-followCard-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.ca-followCard-infoUsername {
+  opacity: 0.6;
+}
+
+.ca-followCard-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.ca-followCard-button {
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  padding: 6px 16px;
+  border-radius: 999px;
+  border: 1px solid #000;
+  transition: 0.3s ease background-color;
+}
+.ca-followCard-button:hover {
+  opacity: 0.8;
+}
+.ca-followCard-text {
+  display: block;
+}
+
+.ca-followCard-button.is-following {
+  border: 1px solid #bbb;
+  background: transparent;
+  color: #fff;
+  width: 140px;
+}
+
+.ca-followCard-button.is-following:hover {
+  background-color: rgba(192, 56, 56, 0.176);
+  color: red;
+  border: 1px solid red;
+  transition: 0.3 ease all;
+  opacity: 1;
+}
+.ca-followCard-button.is-following:hover .ca-followCard-text {
+  display: none;
+}
+
+.ca-followCard-button.is-following:hover .ca-followCard-stopFollow {
+  display: block;
+}
+.ca-followCard-stopFollow {
+  display: none;
+}
