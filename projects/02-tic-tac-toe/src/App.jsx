@@ -34,7 +34,10 @@ function App() {
     setBoard(newBoard);
     const newTurn = turn === TURNS.x ? TURNS.o : TURNS.x;
     setTurn(newTurn);
-
+    saveGameStorage({
+      board: newBoard,
+      turn: newTurn,
+    });
     const newWinner = checkWinnerFrom(newBoard);
     if (newWinner) {
       confetti();
