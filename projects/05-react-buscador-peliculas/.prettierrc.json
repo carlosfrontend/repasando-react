@@ -1,0 +1,15 @@
+{
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "objectWrap": "preserve",
+  "jsxSingleQuote": true,
+  "semi": false,
+  "tabWidth": 2,
+  "printWidth": 80,
+  "quoteProps": "as-needed",
+  "trailingComma": "none",
+  "useTabs": false,
+  "singleAttributePerLine": true,
+  "proseWrap": "always",
+  "experimentalTernaries": true
+}
